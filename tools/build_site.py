@@ -127,7 +127,7 @@ Then open http://localhost:8000 (opening `index.html` directly will not work bec
 The content lives in the Atlas artifact database; `tools/build_site.py` turns an export of it into the static files here.
 Last build: {built}. Do not edit `data/` by hand; it is regenerated.
 """)
-    print(f"built {len(lessons)} lessons, {len(terms)} terms, {len(by_docmain)} lesson bundles into {out}")
+    print(f"built {len(lessons)} lessons, {len(terms)} terms, {len(by_domain)} lesson bundles into {out}")
 
 
 if __name__ == "__main__":
